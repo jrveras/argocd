@@ -11,7 +11,7 @@ spec:
   - port: 8111
     protocol: TCP
     targetPort: 8111
-    nodePort: 30009
+    nodePort: 8111
   selector:
     app: nginx
     tag: alpine
