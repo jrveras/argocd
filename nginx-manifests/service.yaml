@@ -11,8 +11,7 @@ spec:
   - port: 8111
     protocol: TCP
     targetPort: 8111
-    nodePort: 30010
   selector:
     app: nginx
     tag: alpine
-  type: NodePort
+  type: ClusterIP
